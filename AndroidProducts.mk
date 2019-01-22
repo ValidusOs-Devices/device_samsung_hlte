@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gzosp_hlte.mk
+    $(LOCAL_DIR)/validus_hlte.mk

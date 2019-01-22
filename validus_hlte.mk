@@ -14,13 +14,13 @@
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/gzosp/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
-# Inherit some common gzosp stuff.
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/gzosp/config/caf_fw.mk)
+# Inherit some common validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/validus/config/caf_fw.mk)
 
-PRODUCT_NAME := gzosp_hlte
+PRODUCT_NAME := validus_hlte
 PRODUCT_DEVICE := hlte
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N9005
